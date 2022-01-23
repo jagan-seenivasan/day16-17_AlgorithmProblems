@@ -1,8 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-class GuessNumber
+
+namespace AlgorithmPrograms
 {
+   class GuessNumber
+   {
      static void Main(string[] args)
       {
            while (true)
@@ -45,4 +48,5 @@ class GuessNumber
             return random.Next(min, max);
         }
     }
+  }
 }
