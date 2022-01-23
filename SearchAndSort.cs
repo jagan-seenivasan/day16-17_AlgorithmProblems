@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Collections;
 
-public class SearchAndSort
+namespace AlgorithmPrograms
 {
+
+  public class SearchAndSort
+  {
     public static int LinearSearch(ref int[] x, int valueToFind)
     {
         for (int i = 0; i < x.Length; i++)
@@ -63,4 +66,5 @@ public class SearchAndSort
             Console.WriteLine("Value of 19 was found at location = {0}", location);
         Console.WriteLine("\n\n");
     }
+  }
 }
